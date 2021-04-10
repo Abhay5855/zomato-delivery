@@ -1,0 +1,568 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+}
+
+.heading {
+  width: 100%;
+  height: 72px;
+  max-width: 100%;
+}
+
+.navigation {
+  width: 1100px;
+  height: 72px;
+  margin: 0 200px 0 200px;
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+}
+
+.logo {
+  width: 150.9px;
+  cursor: pointer;
+  max-width: 200px;
+  margin: 10px 0 10px 0;
+  display: flex;
+}
+
+.nav__bar {
+  height: 72px;
+  width: 973px;
+  list-style: none;
+  display: flex;
+  list-style-type: outside;
+  align-items: center;
+  max-width: 100%;
+  min-width: 100%;
+  /* border:0.5px solid black; */
+  padding: 15px 0 15px 0;
+}
+
+.search {
+  height: 54px;
+  width: 700px;
+  display: flex;
+  border: 1px solid #e8e8e8;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 0 10px 0 10px;
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px 0px;
+}
+
+.location__box {
+  height: 54px;
+  width: 220px;
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: auto;
+  text-align: left;
+}
+
+fas,
+.fa-map-marker-alt {
+  font-size: 20px;
+  color: rgb(245, 112, 130);
+  vertical-align: center;
+  height: 20px;
+  text-align: left;
+  padding: 12px 0 10px 0;
+}
+
+.input__bar {
+  height: 20px;
+  width: 150px;
+  cursor: text;
+  margin: 12px 10px 10px 5px;
+  padding: 1px 2px 1px 2px;
+  min-height: auto;
+  min-width: auto;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+fas,
+.fa-caret-down {
+  padding: 12px 10px 10px 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.search__bar {
+  width: 400px;
+  max-width: auto;
+  height: 50px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: left;
+  display: flex;
+  cursor: text;
+  outline: none;
+  border: none;
+  padding: 1px 20px 1px 2px;
+  margin-left: 15px;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+.search__logo {
+  top: 10px;
+  height: 54px;
+  width: 50px;
+  display: flex;
+  text-align: left;
+  position: relative;
+  margin: -1px -6px -1px -1px;
+}
+
+fas,
+.fa-search {
+  font-size: 15px;
+  padding: 15px 0 10px 0;
+  cursor: pointer;
+}
+
+a {
+  vertical-align: middle;
+  text-align: right;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  display: inline;
+  text-decoration: none;
+  line-height: 27px;
+  margin-left: 20px;
+  color: #828282;
+  font-size: 18px;
+}
+
+.section__span {
+  width: 1100px;
+  height: 22px;
+  margin: 20px 0px 0px 210px;
+}
+
+.section__span span {
+  height: 20px;
+  width: 50px;
+  min-height: auto;
+  min-width: auto;
+}
+
+.light {
+  color: #cfcfcf;
+}
+
+.home,
+.locnn {
+  color: #828282;
+  cursor: pointer;
+}
+
+.locnn:hover {
+  color: #ed5a6b;
+}
+
+.home:hover {
+  color: #ed5a6b;
+}
+
+.filters {
+  width: 1159.2px;
+  height: 75px;
+  position: sticky;
+}
+
+.sticky__bar {
+  height: 75px;
+  width: 1100px;
+  position: sticky;
+  padding: 20px 0 0 0;
+  margin-left: 200px;
+  display: flex;
+}
+
+.contents {
+  height: 37px;
+  width: 100px;
+  display: inline-block;
+  border-radius: 8px;
+  border: 1px solid #cfcfcf;
+  padding: 8px;
+  cursor: pointer;
+  color: #9c9c9c;
+  margin: 0.5rem;
+  position: sticky;
+  z-index: 2;
+}
+
+.contents0 {
+  height: 37px;
+  width: 115px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #cfcfcf;
+  color: #9c9c9c;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.contents1 {
+  height: 37px;
+  width: 135px;
+  border-radius: 8px;
+  border: 1px solid #cfcfcf;
+  padding: 8px;
+  cursor: pointer;
+  margin: 0.5rem;
+
+  color: #9c9c9c;
+}
+.contents2 {
+  height: 37px;
+  width: 85px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #cfcfcf;
+  cursor: pointer;
+  color: #9c9c9c;
+  margin: 0.5rem;
+}
+.contents3 {
+  height: 37px;
+  width: 140px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #cfcfcf;
+  color: #9c9c9c;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.contents4 {
+  height: 37px;
+  width: 100px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #cfcfcf;
+  color: #9c9c9c;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+fas,
+.fa-arrow-down,
+.fa-arrow-up {
+  font-size: 0.75em;
+}
+
+.contents img {
+  width: 18px;
+  height: 18px;
+  min-height: auto;
+  min-width: auto;
+  overflow: hidden;
+}
+
+.contents:hover {
+  background: #e8e8e8;
+}
+.contents0:hover {
+  background: #e8e8e8;
+}
+.contents1:hover {
+  background: #e8e8e8;
+}
+.contents2:hover {
+  background: #e8e8e8;
+}
+.contents3:hover {
+  background: #e8e8e8;
+}
+.contents4:hover {
+  background: #e8e8e8;
+}
+
+.content__info {
+  text-align: center;
+}
+
+/* NEW SECTION */
+
+.section__new {
+  width: 100%;
+  height: 400px;
+  background: #f8f8f8;
+}
+
+.section__foods {
+  height: 280px;
+  width: 1100px;
+  margin: 0 200px 0 200px;
+  padding: 40px 0 40px 0;
+  max-width: 1500px;
+}
+
+.section__foods h1 {
+  padding-bottom: 12px;
+}
+
+.section__foods img {
+  width: 250px;
+  height: 195px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 5px;
+  overflow: hidden;
+  max-width: 400px;
+  cursor: pointer;
+}
+
+.description1 {
+  display: inline-block;
+  width: 250px;
+  height: 18px;
+  text-align: left;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.description2 {
+  display: inline-block;
+  width: 250px;
+  height: 18px;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.description3 {
+  display: inline-block;
+  width: 250px;
+  height: 18px;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.description4 {
+  display: inline-block;
+  width: 250px;
+  height: 18px;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Brands */
+
+.brands {
+  height: 470px;
+  width: 1519.2px;
+}
+
+.brands__details {
+  height: 280px;
+  width: 1100px;
+  margin: 0 200px 0 200px;
+  padding: 40px 0 40px 0;
+  max-width: 1500px;
+}
+
+.brands__details h1 {
+  padding-bottom: 20px;
+}
+
+.nearest__places {
+  height:300px;
+  width: 1100px;
+  display: flex;
+  overflow: hidden;
+ 
+}
+
+.tracker {
+  height: 230px;
+  width: 170px;
+}
+.tracker img {
+  width: 148px;
+  height: 148px;
+  border-radius: 10%;
+  margin: 15px;
+}
+
+.haldirams,
+.dominos {
+  border: 1px solid #cfcfcf;
+}
+
+.tracker h6  {
+    text-align: center;
+    font-size: 16px;
+}
+
+.hotels__section {
+    height:11336.2px;
+    width:100%;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+.hotels__section h1 {
+    height: 32px;
+    width:1100px;
+    margin:10px 0 32px 0;
+}
+
+
+.hotel {
+    height: 400px;
+    width:1100px;
+    margin:35px 0 35px 0;
+    display: flex;
+}
+
+
+.hotel img {
+    height:240px;
+    width:360px;
+    border-radius:8px;
+    cursor: pointer;
+    cursor: pointer;
+    
+}
+
+.chi{
+    margin-left:10px;
+    cursor: pointer;
+}
+
+.piz {
+  margin-left:20px;
+}
+
+.jubliee {
+    text-align: left;
+    height:34px;
+    width:350px;
+    font-size:20px;
+    cursor: pointer;
+}
+
+ .dominos__pizza, .babloo {
+  text-align: left;
+  height:34px;
+  width:350px;
+  font-size:20px;
+  cursor: pointer;
+ 
+ }
+
+
+
+.hotel1 , .hotel2, .hotel3 {
+    width:360px;
+    height:400px;
+    cursor: pointer;
+    margin:10px;
+
+}
+
+.reviews {
+  height: 25px;
+  width:360px;
+  display: flex;
+  cursor: pointer;
+
+}
+
+.reviews__star {
+
+  height: 25px;
+  width:360px;
+  display: flex;
+  min-height: auto;
+  min-width: auto;
+  cursor: pointer;
+}
+.reviews__star2 , .reviews__star3 {
+
+  height: 25px;
+  width:360px;
+  display: flex;
+  min-height: auto;
+  min-width: auto;
+  cursor: pointer;
+}
+
+.reviews__star i {
+  color:#D61B69;
+  cursor: pointer;
+  
+}
+
+.reviews__star2 , .reviews__star3  {
+  color:#D61B69;
+  cursor: pointer;
+  
+}
+
+#star1 , #star2, #star3 {
+  color:#828282;
+  cursor: pointer;
+}
+
+.no {
+  height: 20px;
+  width:280px;
+  margin:0 0 0 3px;
+  cursor: pointer;
+
+ 
+}
+
+.cust {
+  color: #9C9C9C;
+  cursor: pointer;
+}
+
+.foods__avai {
+  height: 25px;
+  width:360px;
+  overflow: hidden;
+  text-align: left;
+  margin: 0 0 4px 0;
+}
+
+
+
+.check__out {
+
+  height:110px;
+  width:350px;
+  cursor: pointer;
+
+}
