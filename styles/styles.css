@@ -30,7 +30,7 @@
   width: 150.9px;
   cursor: pointer;
   max-width: 200px;
-  margin: 10px 0 10px 0;
+  margin: 10px 0 12px 0;
   display: flex;
 }
 
@@ -321,6 +321,9 @@ fas,
 
 .section__foods h1 {
   padding-bottom: 12px;
+  font-family:okra,Helvetica,sans-serif;
+  font-size:30px;
+  font-weight:500;
 }
 
 .section__foods img {
@@ -343,6 +346,7 @@ fas,
   text-align: left;
   font-size: 1.5rem;
   cursor: pointer;
+  font-family: okera,Helvetica,sans-serif;
 }
 .description2 {
   display: inline-block;
@@ -352,6 +356,7 @@ fas,
   margin-left: 10px;
   font-size: 1.5rem;
   cursor: pointer;
+  font-family: okera,Helvetica,sans-serif;
 }
 .description3 {
   display: inline-block;
@@ -361,6 +366,7 @@ fas,
   margin-left: 10px;
   font-size: 1.5rem;
   cursor: pointer;
+  font-family: okera,Helvetica,sans-serif;
 }
 .description4 {
   display: inline-block;
@@ -370,6 +376,7 @@ fas,
   margin-left: 10px;
   font-size: 1.5rem;
   cursor: pointer;
+  font-family: okera,Helvetica,sans-serif;
 }
 
 /* Brands */
@@ -387,16 +394,18 @@ fas,
   max-width: 1500px;
 }
 
-.brands__details h1 {
+.brands__details h3 {
   padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500px;
+  font-family: okera,Helvetica,sans-serif;
 }
 
 .nearest__places {
-  height:300px;
+  height: 300px;
   width: 1100px;
   display: flex;
   overflow: hidden;
- 
 }
 
 .tracker {
@@ -415,12 +424,12 @@ fas,
   border: 1px solid #cfcfcf;
 }
 
-.tracker h6  {
-    text-align: center;
-    font-size: 16px;
+.tracker h6 {
+  text-align: center;
+  font-size: 16px;
 }
 
-.hotels__section {
+/* .hotels__section {
     height:11336.2px;
     width:100%;
     position: relative;
@@ -428,10 +437,9 @@ fas,
     right: 0;
     bottom: 0;
     left: 0;
-}
+} */
 
-
-.hotels__section h1 {
+/* .hotels__section h1 {
     height: 32px;
     width:1100px;
     margin:10px 0 32px 0;
@@ -565,4 +573,121 @@ fas,
   width:350px;
   cursor: pointer;
 
+} */
+
+.nagpur__hotels {
+  width: 100%;
+  height:1200px;
+  cursor: pointer;
 }
+
+
+
+.nagpur__hotels h1 {
+  margin: 0 0 30px 0;
+  font-family:okra,Helvetica,sans-serif;
+  font-size:30px;
+  font-weight:500;
+}
+
+.nagpur__hotels1 {
+  height: 400px;
+  width: 1100px;
+  display: flex;
+  margin: 30px 0 30px 0;
+}
+
+.hotels__section1,
+.hotels__section2 {
+  height: 400px;
+  width: 350px;
+  min-height: auto;
+  min-width: auto;
+  margin: 0 25px 0 0;
+  
+}
+
+.hotels__section3 {
+  height: 400px;
+  width: 350px;
+  min-height: auto;
+  min-width: auto;
+}
+
+.hotel__img {
+  width: 350px;
+  height: 250px;
+  border-radius: 10%;
+}
+
+.rating__section {
+  height: 145px;
+  width: 350px;
+  cursor: pointer;
+  font-family: okera,Helvetica,sans-serif;
+}
+
+.hotel__names {
+  color:#000;
+  text-align:left;
+  width:350px;
+  height: 24px;
+  margin: 8px 0 6px 0;
+  font-weight: 20px;
+  font-family: okera,Helvetica,sans-serif;
+}
+
+
+.stars {
+  width:350px;
+  height: 24px;
+  display: flex;
+
+}
+
+
+.customer__ratings {
+  height: 20px;
+  width:137px;
+  display: flex;
+
+}
+
+.rating__no {
+  height: 20px;
+  margin-left:8px;
+  color: #363636;
+
+}
+
+.items__available {
+  height: 22px;
+  width:350px;
+  margin: 0 0 4px 0;
+  text-align: left;
+  font-family: okera,Helvetica,sans-serif;
+
+}
+
+.price__tag {
+  height: 22px;
+  width:350px;
+  text-align: left;
+  font-family: okera,Helvetica,sans-serif;
+}
+
+far ,
+.fa-star {
+  color:#ed5a6b;
+}
+
+#star5 {
+  color:#cfcfcf;
+}
+
+#star4 {
+  color:#cfcfcf;
+}
+
+
+
